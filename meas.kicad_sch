@@ -3044,7 +3044,7 @@
 				)
 			)
 		)
-		(property "Footprint" "pss:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
+		(property "Footprint" "meas:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
 			(at 222.25 41.402 90)
 			(effects
 				(font
@@ -3131,7 +3131,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "pss:PhoenixContact_TDPT_2,5_2-SP-5,08_1x02_P5.08mm_Horizontal"
+		(property "Footprint" "meas:PhoenixContact_TDPT_2,5_2-SP-5,08_1x02_P5.08mm_Horizontal"
 			(at 261.62 81.28 0)
 			(effects
 				(font
@@ -3352,7 +3352,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "pss:PhoenixContact_TDPT_2,5_6-SP-5,08_1x06_P5.08mm_Horizontal"
+		(property "Footprint" "meas:PhoenixContact_TDPT_2,5_6-SP-5,08_1x06_P5.08mm_Horizontal"
 			(at 38.1 43.18 0)
 			(effects
 				(font
@@ -3452,7 +3452,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "pss:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
+		(property "Footprint" "meas:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
 			(at 214.122 127 90)
 			(effects
 				(font
@@ -3606,7 +3606,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "enclosure:D_SOD-323_HandSoldering"
+		(property "Footprint" "meas:D_SOD-323_HandSoldering"
 			(at 241.3 50.8 0)
 			(effects
 				(font
@@ -3694,7 +3694,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "pss:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
+		(property "Footprint" "meas:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
 			(at 217.678 50.8 90)
 			(effects
 				(font
@@ -3780,7 +3780,7 @@
 				)
 			)
 		)
-		(property "Footprint" "enclosure:FuseHolder_Blade_ATO_Littelfuse_FLR_178.6165"
+		(property "Footprint" "meas:FuseHolder_Blade_ATO_Littelfuse_FLR_178.6165"
 			(at 248.92 82.042 90)
 			(effects
 				(font
@@ -3868,7 +3868,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "enclosure:D_SOD-323_HandSoldering"
+		(property "Footprint" "meas:D_SOD-323_HandSoldering"
 			(at 241.3 127 0)
 			(effects
 				(font
@@ -3956,7 +3956,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "pss:PhoenixContact_TDPT_2,5_2-SP-5,08_1x02_P5.08mm_Horizontal"
+		(property "Footprint" "meas:PhoenixContact_TDPT_2,5_2-SP-5,08_1x02_P5.08mm_Horizontal"
 			(at 38.1 80.01 0)
 			(effects
 				(font
@@ -4043,7 +4043,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "pss:PhoenixContact_TDPT_2,5_2-SP-5,08_1x02_P5.08mm_Horizontal"
+		(property "Footprint" "meas:PhoenixContact_TDPT_2,5_2-SP-5,08_1x02_P5.08mm_Horizontal"
 			(at 259.08 116.84 0)
 			(effects
 				(font
@@ -4215,7 +4215,7 @@
 				)
 			)
 		)
-		(property "Footprint" "pss:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
+		(property "Footprint" "meas:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
 			(at 222.25 121.158 90)
 			(effects
 				(font
@@ -4302,7 +4302,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "pss:PhoenixContact_TDPT_2,5_2-SP-5,08_1x02_P5.08mm_Horizontal"
+		(property "Footprint" "meas:PhoenixContact_TDPT_2,5_2-SP-5,08_1x02_P5.08mm_Horizontal"
 			(at 259.08 40.64 0)
 			(effects
 				(font

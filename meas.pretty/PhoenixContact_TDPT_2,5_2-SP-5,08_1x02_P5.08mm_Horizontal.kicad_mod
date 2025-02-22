@@ -1,0 +1,333 @@
+(footprint "PhoenixContact_TDPT_2,5_2-SP-5,08_1x02_P5.08mm_Horizontal"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -1.27 17.145 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "841fdbde-c342-4149-bb35-1bc6b7688ea5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Conn_01x02_Socket"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "637752a0-d7de-45d7-a30c-0b4b787330a6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "pss:PhoenixContact_TDPT_2,5_2-SP-5,08_1x02_P5.08mm_Horizontal"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d7d2adbe-f6ed-4591-a0a3-cb9b6265d3a7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "./datasheet/1017503_00_en_01.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "be7a60b4-abb8-4ce5-b718-b1339f99f88e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Generic connector, single row, 01x02, script generated"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "805cdab8-f11f-4bc0-aeea-b13a308e2fed")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" "1017503"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "51d60956-5048-4392-a5a5-b87a2b81cc65")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "VPN" "651-1017503"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "756c193b-b242-44d0-a9e3-11038d74c0c2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3.175 -2.54)
+		(end -0.635 -2.54)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5162984e-04ac-46c8-859e-a1933cc50e0a")
+	)
+	(fp_line
+		(start -3.175 0)
+		(end -3.175 -2.54)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2c0daf67-38be-4cfd-8878-d1013f544c8a")
+	)
+	(fp_line
+		(start -3.175 13.335)
+		(end -3.175 15.875)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "17469ed2-83cf-4a74-ae02-e613a1901a29")
+	)
+	(fp_line
+		(start -3.175 15.875)
+		(end -0.635 15.875)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "27ec129b-c373-406f-9b2f-d6e473ec392d")
+	)
+	(fp_line
+		(start -1.27 15.24)
+		(end -0.635 12.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "495365a5-6575-4add-80f1-9d35a4bc4ad2")
+	)
+	(fp_line
+		(start -0.635 12.7)
+		(end 0.635 12.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f8ae91b1-81bf-4283-aace-5b74e86ba1cd")
+	)
+	(fp_line
+		(start 0.635 12.7)
+		(end 1.27 15.24)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4621fb51-837d-49c3-a3b1-7a18ba223795")
+	)
+	(fp_line
+		(start 1.27 15.24)
+		(end -1.27 15.24)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6f9cfb83-d4a6-431c-b056-98d6ef0b98e1")
+	)
+	(fp_line
+		(start 3.81 15.24)
+		(end 4.445 12.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f767bc2d-fe90-4095-a1ae-ec6d72b05b15")
+	)
+	(fp_line
+		(start 4.445 12.7)
+		(end 5.715 12.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8aa52067-15ef-4631-86e7-0bad3a647294")
+	)
+	(fp_line
+		(start 5.715 -2.54)
+		(end 8.255 -2.54)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b3e3b15d-3c59-4de8-9898-d67b35127caf")
+	)
+	(fp_line
+		(start 5.715 12.7)
+		(end 6.35 15.24)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "97702fb2-9ce8-458f-9e4a-54f2541c0f41")
+	)
+	(fp_line
+		(start 5.715 15.875)
+		(end 8.255 15.875)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7e3ecca4-b46e-40e1-8a74-8491a0379ae0")
+	)
+	(fp_line
+		(start 6.35 15.24)
+		(end 3.81 15.24)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7df0e33b-6a17-4bf6-ba1e-a9dad74b1fdd")
+	)
+	(fp_line
+		(start 8.255 -2.54)
+		(end 8.255 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0383736b-d254-49a4-bbaa-8f28e2fbafcb")
+	)
+	(fp_line
+		(start 8.255 15.875)
+		(end 8.255 13.335)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3fdefde3-1f2d-476f-9783-95c8183e62d2")
+	)
+	(fp_rect
+		(start -3.175 -2.54)
+		(end 8.255 15.875)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "3de393b5-9123-4d86-92fa-345b2a983abd")
+	)
+	(fp_rect
+		(start -2.94 -2.25)
+		(end 8.02 15.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "0999fbc6-4292-40fb-be77-66083f3d85ac")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 6.985 17.145 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2f7c34bc-2b79-449e-a7f7-8a259301d153")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2.162 2.162)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ef91915b-7633-4dd2-990e-80ba06e7478d")
+	)
+	(pad "1" thru_hole circle
+		(at 0 8.7)
+		(size 2.162 2.162)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8b049429-4750-4cd7-824d-7b7a457a58eb")
+	)
+	(pad "2" thru_hole circle
+		(at 5.08 0)
+		(size 2.162 2.162)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "15f4ee7b-fd2b-4269-9676-3c550ab804e9")
+	)
+	(pad "2" thru_hole circle
+		(at 5.08 8.7)
+		(size 2.162 2.162)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d6532982-d9c4-4fed-9462-38fd5de1e9d0")
+	)
+	(model "${KIPRJMOD}/3d_models/pxc_1017503_00_00_TDPT-2-5-2-SP-5-08_3D.stp"
+		(offset
+			(xyz -2.94 -14.25 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

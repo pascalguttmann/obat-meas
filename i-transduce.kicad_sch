@@ -796,7 +796,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "pss:TP_0805_2012Metric"
+		(property "Footprint" "meas:TP_0805_2012Metric"
 			(at 186.69 110.49 0)
 			(effects
 				(font
@@ -886,7 +886,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "pss:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "meas:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 168.6052 119.38 0)
 			(effects
 				(font
@@ -979,7 +979,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "pss:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "meas:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 143.8148 90.17 0)
 			(effects
 				(font
@@ -1073,7 +1073,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "pss:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "meas:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 161.29 110.49 0)
 			(effects
 				(font
@@ -1186,7 +1186,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "pss:TP_0805_2012Metric"
+		(property "Footprint" "meas:TP_0805_2012Metric"
 			(at 172.72 107.95 0)
 			(effects
 				(font

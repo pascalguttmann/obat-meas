@@ -2571,7 +2571,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "enclosure:CP_Elec_10x10"
+		(property "Footprint" "meas:CP_Elec_10x10"
 			(at 103.1748 104.14 0)
 			(effects
 				(font
@@ -2663,7 +2663,7 @@
 				)
 			)
 		)
-		(property "Footprint" "enclosure:D_SOD-123"
+		(property "Footprint" "meas:D_SOD-123"
 			(at 208.28 99.06 0)
 			(effects
 				(font
@@ -2774,7 +2774,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "enclosure:TP_0805_2012Metric"
+		(property "Footprint" "meas:TP_0805_2012Metric"
 			(at 109.22 92.71 0)
 			(effects
 				(font
@@ -3224,7 +3224,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "enclosure:TP_0805_2012Metric"
+		(property "Footprint" "meas:TP_0805_2012Metric"
 			(at 246.38 85.09 0)
 			(effects
 				(font
@@ -3315,7 +3315,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "enclosure:D_SOD-323_HandSoldering"
+		(property "Footprint" "meas:D_SOD-323_HandSoldering"
 			(at 55.88 100.33 0)
 			(effects
 				(font
@@ -3408,7 +3408,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "enclosure:TP_0805_2012Metric"
+		(property "Footprint" "meas:TP_0805_2012Metric"
 			(at 60.96 93.98 0)
 			(effects
 				(font
@@ -3590,7 +3590,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "enclosure:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "meas:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 189.5348 113.03 0)
 			(effects
 				(font
@@ -3683,7 +3683,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "enclosure:TP_0805_2012Metric"
+		(property "Footprint" "meas:TP_0805_2012Metric"
 			(at 50.8 106.68 0)
 			(effects
 				(font
@@ -3771,7 +3771,7 @@
 				)
 			)
 		)
-		(property "Footprint" "enclosure:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
+		(property "Footprint" "meas:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
 			(at 176.53 100.838 90)
 			(effects
 				(font
@@ -3863,7 +3863,7 @@
 				)
 			)
 		)
-		(property "Footprint" "enclosure:TO-252-2"
+		(property "Footprint" "meas:TO-252-2"
 			(at 208.915 115.57 0)
 			(effects
 				(font
@@ -4032,7 +4032,7 @@
 				)
 			)
 		)
-		(property "Footprint" "enclosure:FuseHolder_Blade_ATO_Littelfuse_FLR_178.6165"
+		(property "Footprint" "meas:FuseHolder_Blade_ATO_Littelfuse_FLR_178.6165"
 			(at 81.28 92.202 90)
 			(effects
 				(font
@@ -4126,7 +4126,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "enclosure:D_SOD-123"
+		(property "Footprint" "meas:D_SOD-123"
 			(at 116.84 100.33 0)
 			(effects
 				(font
@@ -4237,7 +4237,7 @@
 				)
 			)
 		)
-		(property "Footprint" "enclosure:SOT-223-3_TabPin2"
+		(property "Footprint" "meas:SOT-223-3_TabPin2"
 			(at 193.04 83.82 0)
 			(effects
 				(font
@@ -4333,7 +4333,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "enclosure:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "meas:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 226.3648 113.03 0)
 			(effects
 				(font

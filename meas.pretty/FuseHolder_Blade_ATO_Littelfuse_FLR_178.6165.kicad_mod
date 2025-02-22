@@ -1,0 +1,308 @@
+(footprint "FuseHolder_Blade_ATO_Littelfuse_FLR_178.6165"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Littelfuse fuse holder for ATO/FKS blade fuses, 80V, vertical, 20 x 6mm, PCB thickness up to 1.5mm, http://www.littelfuse.com/~/media/commercial-vehicle/datasheets/automotive-fuse-holders/ato/littelfuse-fuse-holder-ato-flr-pcb-datasheet.pdf")
+	(tags "ATO FKS blade fuse holder")
+	(property "Reference" "REF**"
+		(at 17.554 1.217 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "1a48ff54-c5bf-462b-b567-1838f708b121")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Fuse_Socket"
+		(at 6.4 5.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "184af96f-5618-4e27-bf21-b6eb1cbd8a27")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "enclosure:FuseHolder_Blade_ATO_Littelfuse_FLR_178.6165"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0fb0fa63-dc5a-4034-98b1-5113b74b3967")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" "./datasheet/178.6165.0002.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6e9f33d8-7ce0-4b0e-8685-c1d18f4f772f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Fuse"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6ae40adf-84ed-40e9-98e0-102fb3a8c4f4")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "MPN" "178.6165.0002"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ed3b6f6a-7aff-4e90-a2be-d869c4b66883")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "VPN" "576-178.6165.0002"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e67ac6e1-3f3e-4bc9-ab05-ec7a614bbcbf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3.91 -2.06)
+		(end 16.71 -2.06)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d5f5105e-3046-4c7c-aff2-2e567da0025b")
+	)
+	(fp_line
+		(start -3.91 4.56)
+		(end -3.91 -2.06)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bc2f55b6-e1f5-4454-925a-dd4a38c19e88")
+	)
+	(fp_line
+		(start 16.71 -2.06)
+		(end 16.71 4.56)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "aa19e3ac-e445-4edd-821e-ec7fc7bfa14f")
+	)
+	(fp_line
+		(start 16.71 4.56)
+		(end -3.91 4.56)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f3eecdf2-dddb-476a-ae39-9b49ab2afa91")
+	)
+	(fp_line
+		(start -4.1 -2.25)
+		(end 16.9 -2.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "8aec7140-2a26-453b-bd2c-3e2c89063363")
+	)
+	(fp_line
+		(start -4.1 4.75)
+		(end -4.1 -2.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "428b16bc-6078-4c91-b173-8ef977e63841")
+	)
+	(fp_line
+		(start 16.9 -2.25)
+		(end 16.9 4.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "731864f8-c4d1-47c6-a6a3-639321c61bcb")
+	)
+	(fp_line
+		(start 16.9 4.75)
+		(end -4.1 4.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "57c5f8a2-bc9e-4f8e-a0e7-aad972b526b1")
+	)
+	(fp_line
+		(start -3.6 -1.75)
+		(end 16.4 -1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2eed7d44-4bb4-48b1-a052-bd0a9c6e3472")
+	)
+	(fp_line
+		(start -3.6 4.25)
+		(end -3.6 -1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1d6efb01-c4a7-4d40-82d0-0130b13d8971")
+	)
+	(fp_line
+		(start 16.4 -1.75)
+		(end 16.4 4.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "247f5050-f57b-42ca-ac17-166975694f53")
+	)
+	(fp_line
+		(start 16.4 4.25)
+		(end -3.6 4.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "47ef902b-47ca-4bd0-94a4-9d744476dc69")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 6.4 1.25 180)
+		(layer "F.Fab")
+		(uuid "3e9d0426-494d-4fdb-beb6-5716cb7ebc2c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 6.4 1.25)
+		(size 2.4 2.4)
+		(drill 2.4)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "db56965f-1332-4bb8-bd35-2e7cef0378e3")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2.2 2.2)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1b789b44-0512-4122-95af-8e903d717d68")
+	)
+	(pad "1" thru_hole circle
+		(at 0 2.5)
+		(size 2.2 2.2)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6b37a1e6-aad0-4dd5-9ac7-be723278a406")
+	)
+	(pad "1" thru_hole circle
+		(at 3.5 0)
+		(size 2.2 2.2)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f816557b-aa4e-441c-918a-3521cdff84d1")
+	)
+	(pad "1" thru_hole circle
+		(at 3.5 2.5)
+		(size 2.2 2.2)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f61feb6e-c6ba-471d-a11c-b3aa3777f0ae")
+	)
+	(pad "2" thru_hole circle
+		(at 9.3 0)
+		(size 2.2 2.2)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8faba417-0d64-4b74-b597-7118c9d7a56a")
+	)
+	(pad "2" thru_hole circle
+		(at 9.3 2.5)
+		(size 2.2 2.2)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6ddc3aa8-38c1-403d-9058-10095d206ec6")
+	)
+	(pad "2" thru_hole circle
+		(at 12.8 0)
+		(size 2.2 2.2)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7a97a649-ed0b-4bf5-b59f-a5e29ca75720")
+	)
+	(pad "2" thru_hole circle
+		(at 12.8 2.5)
+		(size 2.2 2.2)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "53e439e1-f31e-4b1f-9433-97c936fc8818")
+	)
+	(model "${KIPRJMOD}/3d_models/178.6165.0000.step"
+		(offset
+			(xyz 0 -12.5 -10.8)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
