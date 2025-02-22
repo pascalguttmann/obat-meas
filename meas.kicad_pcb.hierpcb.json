@@ -1,0 +1,45 @@
+{
+  "subpcb": {
+    "adc.kicad_pcb": {
+      "anchor": "U701"
+    },
+    "digital-interface.kicad_pcb": {
+      "anchor": "U701"
+    },
+    "meas.kicad_pcb": {
+      "anchor": "J101"
+    }
+  },
+  "sheet": {
+    "": {
+      "checked": false
+    },
+    "/18f69308-d2bb-412e-851d-cfd83b83daca": {
+      "checked": false
+    },
+    "/1d9ec1c6-3f8b-4d8c-ae91-e24bdcfacfe8": {
+      "checked": true
+    },
+    "/33a46cbd-3b48-4998-9ddf-f4aed818f791": {
+      "checked": false
+    },
+    "/380211f9-e561-408b-b124-4005600d686d": {
+      "checked": true
+    },
+    "/3b85f868-5ce5-4a08-b6ad-a84168e0a0c3": {
+      "checked": false
+    },
+    "/57745d28-e888-4c41-bc36-79a8ee7a19bd": {
+      "checked": true
+    },
+    "/722db133-dd98-4c12-99f4-3c9027a3ce09": {
+      "checked": false
+    },
+    "/c84d6ce5-9299-4639-87a4-25ab6381fed6": {
+      "checked": false
+    },
+    "/d8b83012-dd63-42fd-bab5-7d89e6ad661d": {
+      "checked": false
+    }
+  }
+}
