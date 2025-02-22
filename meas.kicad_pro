@@ -333,8 +333,10 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "+24V": "12A5",
       "/i-transduce/in": "25A",
-      "/i-transduce/out": "25A"
+      "/i-transduce/out": "25A",
+      "GND": "12A5"
     },
     "netclass_patterns": []
   },
@@ -486,11 +488,47 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VPN",
+          "name": "VPN",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -569,6 +607,10 @@
     [
       "d8b83012-dd63-42fd-bab5-7d89e6ad661d",
       "i-transduce"
+    ],
+    [
+      "722db133-dd98-4c12-99f4-3c9027a3ce09",
+      "power"
     ]
   ],
   "text_variables": {}

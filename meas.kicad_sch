@@ -751,6 +751,54 @@
 		)
 	)
 	(sheet
+		(at 63.5 76.2)
+		(size 12.7 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "722db133-dd98-4c12-99f4-3c9027a3ce09")
+		(property "Sheetname" "power"
+			(at 63.5 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 63.5 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IN" input
+			(at 63.5 82.55 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4e0d3fb8-1cfd-4b8a-8dae-27f5ba7fa6c1")
+		)
+		(instances
+			(project "meas"
+				(path "/f710e4da-f895-4fe1-9122-3234febe82c7"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 63.5 38.1)
 		(size 25.4 25.4)
 		(fields_autoplaced yes)
@@ -791,22 +839,22 @@
 			(uuid "3a1b0835-04c3-4146-a4b4-cbcb5c82c937")
 		)
 		(pin "GND_ISO" output
-			(at 88.9 58.42 0)
+			(at 63.5 58.42 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 			(uuid "098b51b8-e127-4541-8c84-ac559d424d2d")
 		)
 		(pin "+5VA_ISO" output
-			(at 88.9 55.88 0)
+			(at 63.5 55.88 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 			(uuid "b391fff8-6a8e-4c6c-a2fc-2687ba85274d")
 		)
