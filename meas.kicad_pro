@@ -332,7 +332,10 @@
       "version": 3
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "/i-transduce/in": "25A",
+      "/i-transduce/out": "25A"
+    },
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -562,6 +565,10 @@
     [
       "57745d28-e888-4c41-bc36-79a8ee7a19bd",
       "adc2"
+    ],
+    [
+      "d8b83012-dd63-42fd-bab5-7d89e6ad661d",
+      "i-transduce"
     ]
   ],
   "text_variables": {}

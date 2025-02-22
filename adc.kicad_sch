@@ -5,9 +5,9 @@
 	(uuid "604e28fb-84bf-4194-9f42-c2afd33081d3")
 	(paper "A4")
 	(title_block
-		(title "Power Supply Sink")
-		(date "2024-12-14")
-		(rev "1.0.0")
+		(title "Measurement")
+		(date "2025-02-22")
+		(rev "0.0.0")
 		(company "Open Battery Tester")
 		(comment 1 "Analog Digital Converter")
 	)
@@ -2088,10 +2088,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "ba95b10e-bf71-4aeb-a884-c8695d77f224")
+			(uuid "b679c28a-4e9f-403d-8d46-d93e4ca50f0f")
 		)
 		(pin "2"
-			(uuid "b740291b-c8e7-4a10-b049-2ea86c3ca089")
+			(uuid "0c2d9d33-7b0f-4726-9cca-2b95516165cc")
 		)
 		(instances
 			(project "meas"
@@ -2177,10 +2177,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "59ef2c0a-5495-4ef0-9fc5-b06083c1f1f6")
+			(uuid "05348ac8-cc24-416b-bd74-345d7005d3f3")
 		)
 		(pin "2"
-			(uuid "2e67f22f-1be1-4ea8-b0d0-905b0858e098")
+			(uuid "bc31e740-5783-472f-878d-a7b4d448c3b6")
 		)
 		(instances
 			(project "meas"
@@ -2268,10 +2268,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "34c3f45d-1415-45db-ba21-d6074b6647d4")
+			(uuid "44c3dfd3-2e43-4788-b428-6702a2b094f9")
 		)
 		(pin "2"
-			(uuid "2cceb301-2b21-44b9-961d-e95443f14a65")
+			(uuid "34ea64e6-1b45-4385-a624-f6cac15d4535")
 		)
 		(instances
 			(project "meas"
@@ -2360,10 +2360,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "6c55e910-f552-46fe-9694-6aefa05d9b2f")
+			(uuid "e63b92e7-3a6a-49ce-85c9-dd9ca7cc49ea")
 		)
 		(pin "2"
-			(uuid "b352bfc7-eac8-426a-8402-f79f4ae4982e")
+			(uuid "f95afca7-129f-4c88-a358-92531f4ddf6c")
 		)
 		(instances
 			(project "meas"
@@ -2451,7 +2451,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "5c52734a-354c-4cc4-8926-7de46364360c")
+			(uuid "970885d4-c9d6-418e-8408-aef0e8559431")
 		)
 		(instances
 			(project "meas"
@@ -2540,52 +2540,52 @@
 			)
 		)
 		(pin "4"
-			(uuid "01bd9ab3-1bc4-4e01-893e-a0023d6ef6c2")
+			(uuid "0f9b1695-ed2c-4ddb-b0e8-15df8e554dc5")
 		)
 		(pin "9"
-			(uuid "e8fba0e3-5ff8-4a75-83e5-994c5c0a5f61")
+			(uuid "e7cc20f7-c3df-4796-9812-014959e1e15d")
 		)
 		(pin "12"
-			(uuid "14e4e88a-e2f9-4de8-8822-fb8e3978697a")
+			(uuid "9c6cfcb2-f41b-40fc-a66f-783925682a0e")
 		)
 		(pin "15"
-			(uuid "19cd0f49-4479-4f18-97bd-ec9aa43ad6c4")
+			(uuid "baacb140-cff8-4e74-b109-83fdafb62bd0")
 		)
 		(pin "13"
-			(uuid "0034b5d5-247d-4ea3-a9e7-655869fa2b5b")
+			(uuid "98e4639f-2e34-46d2-b590-b494475288c4")
 		)
 		(pin "2"
-			(uuid "eb6304cb-d4ea-40af-a16b-d001a451a78e")
+			(uuid "76ed5583-cb23-4131-b0bf-9226f4cd4f38")
 		)
 		(pin "11"
-			(uuid "56b15d94-a3ef-497f-879f-bb68f5570d68")
+			(uuid "6d729805-d1a5-4794-8cbc-84a3fb18e6a2")
 		)
 		(pin "7"
-			(uuid "30ccc2d1-be71-4590-a8cd-0f84e1d46200")
+			(uuid "d9c4461c-e94a-4234-92cf-433590638738")
 		)
 		(pin "1"
-			(uuid "9d39517f-0727-4aa8-b471-20402ad45637")
+			(uuid "f936f402-f71f-40c0-b296-e8a26c034efa")
 		)
 		(pin "5"
-			(uuid "33228908-8a72-49c3-b1fd-e379cf9a0b7f")
+			(uuid "7672af1d-c155-419d-81d6-1e0da90a3262")
 		)
 		(pin "10"
-			(uuid "08eba9a1-429c-4957-a1a9-87844e06533a")
+			(uuid "dbb87b5d-5cf0-4d6f-8e4e-149b92e01e15")
 		)
 		(pin "16"
-			(uuid "0baf17fa-44fd-4e8c-bf6f-0a0f6689c966")
+			(uuid "3785dd3f-981b-48d0-b4db-ed5a6450238b")
 		)
 		(pin "8"
-			(uuid "1eb54ece-4788-4a54-ba89-786b8a8e14a4")
+			(uuid "d95d1b36-beb1-4f88-8c1b-b1ae914e62bb")
 		)
 		(pin "6"
-			(uuid "8a89e87d-2e42-41f6-b6cf-4df0fd6b1c96")
+			(uuid "cd2dc012-af04-4f4d-b111-5e7bca517d7c")
 		)
 		(pin "14"
-			(uuid "967e8e88-cf6a-46a4-b327-d7ea520980f1")
+			(uuid "f430436b-b469-49cb-a6c5-d9632f176406")
 		)
 		(pin "3"
-			(uuid "63980937-dc2f-493d-aa31-ed81feebaac9")
+			(uuid "f77755c8-7344-4a53-8888-5a8adcaf2168")
 		)
 		(instances
 			(project "meas"
@@ -2673,10 +2673,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "c04f08ba-8e7c-407c-a35e-c85a3dae64d2")
+			(uuid "def4f8db-6730-4a45-ae4d-5ffc50387aa7")
 		)
 		(pin "2"
-			(uuid "24795ba5-0609-4022-836f-67f0c499d987")
+			(uuid "ee1efa16-c265-4ac4-bbf8-240c20a80be6")
 		)
 		(instances
 			(project "meas"
@@ -2762,10 +2762,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "7623dab4-3de5-46ee-8196-e307ff84716e")
+			(uuid "4001cfdb-5aa5-4ae6-8e70-3eadefd86333")
 		)
 		(pin "2"
-			(uuid "6f566a6f-fc08-4330-b4bd-747a63b9df2f")
+			(uuid "8c72d871-5232-469e-92ba-2adcf9f2c8f2")
 		)
 		(instances
 			(project "meas"
@@ -2853,7 +2853,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "56dc4c24-66d3-4a72-a0c0-14c08a67d08c")
+			(uuid "44aed47f-0236-4b8d-8f4e-733982258041")
 		)
 		(instances
 			(project "meas"
@@ -2941,7 +2941,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "530d64eb-320f-4e7f-8d1f-7305ff27f76d")
+			(uuid "62a09ae8-c412-44c5-9b74-80c725a816b5")
 		)
 		(instances
 			(project "meas"
@@ -3029,10 +3029,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "bc1bf3d3-aef4-47c4-8d75-5d1abb769bf0")
+			(uuid "9f64bd4b-dfe6-4b1a-827c-54ab7d7c578c")
 		)
 		(pin "2"
-			(uuid "ba3aacfa-8a43-45d5-9145-ce54db304848")
+			(uuid "1ca68d2a-80f6-46d2-997f-cc2bd9c9d7d3")
 		)
 		(instances
 			(project "meas"
@@ -3119,10 +3119,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "8d82f070-7e53-4143-a25e-1038b7cca16c")
+			(uuid "aabfd07a-b518-44ae-ae8c-d9a642e8a477")
 		)
 		(pin "2"
-			(uuid "cab22956-2584-492e-a9f0-67555d611365")
+			(uuid "8292b679-30c2-46a5-9c01-f699974f5b57")
 		)
 		(instances
 			(project "meas"
@@ -3191,10 +3191,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "3da39668-8555-49f9-8501-4585e74efe91")
+			(uuid "40b7491a-d151-4962-ae13-b73acb30161a")
 		)
 		(pin "2"
-			(uuid "04347cdd-bda0-4ec7-b3e7-1d5c008866aa")
+			(uuid "17c60e48-5ea5-4f21-b098-28a4300c45e9")
 		)
 		(instances
 			(project "meas"
@@ -3282,10 +3282,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "5bdb4d7b-3aa2-44dc-a2f0-117918a3961f")
+			(uuid "47746a5a-2281-4179-ab00-5fc60762e5ef")
 		)
 		(pin "2"
-			(uuid "6dbb7213-4dc5-4186-9284-72b26e99c6fd")
+			(uuid "65ef93b9-2d04-4b03-a455-278d41728a5e")
 		)
 		(instances
 			(project "meas"
@@ -3373,10 +3373,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "fe6ed40d-1920-4779-bae0-d6a251e5a5f0")
+			(uuid "85563652-8011-414f-9cb6-d6373498bc0c")
 		)
 		(pin "2"
-			(uuid "9cf9e7e1-067a-454e-a11e-ee1b6902b4f6")
+			(uuid "af6a8acd-6178-4688-84a1-65a2771a4313")
 		)
 		(instances
 			(project "meas"
@@ -3464,10 +3464,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "4a070410-ee5f-4e50-9cf1-b48c8d7c1f9b")
+			(uuid "d694a962-d8db-43c9-a710-f1217009e6d1")
 		)
 		(pin "2"
-			(uuid "1baeef6b-3bdf-4fa1-8bc2-46a65d2acfbd")
+			(uuid "572f4e84-6584-4774-86f7-4ff64a882421")
 		)
 		(instances
 			(project "meas"
@@ -3556,10 +3556,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "005dd7fb-2bcd-4501-a8e8-b19b4f544ff4")
+			(uuid "65e5dabd-fa51-44af-9bbc-e93e56b63bfe")
 		)
 		(pin "1"
-			(uuid "6315de68-433a-49e4-bf1b-69444fb628c1")
+			(uuid "80b0d98d-26f6-4ddb-8352-c7d66e936120")
 		)
 		(instances
 			(project "meas"
@@ -3628,10 +3628,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "74210271-ef76-42af-84c0-1c80f2e79608")
+			(uuid "bb305e9e-6a91-475a-8f84-3bcd6ffe285d")
 		)
 		(pin "1"
-			(uuid "4e37a3d2-e0f1-4034-9212-1302d89aeaa1")
+			(uuid "4069870e-bc5f-4548-900a-cda2887d6330")
 		)
 		(instances
 			(project "meas"

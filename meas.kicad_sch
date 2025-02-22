@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "8.0")
 	(uuid "f710e4da-f895-4fe1-9122-3234febe82c7")
-	(paper "A3")
+	(paper "A4")
 	(title_block
 		(title "Measurement")
 		(date "2025-02-22")
@@ -13,7 +13,7 @@
 	)
 	(lib_symbols)
 	(sheet
-		(at 254 76.2)
+		(at 139.7 38.1)
 		(size 25.4 25.4)
 		(fields_autoplaced yes)
 		(stroke
@@ -25,7 +25,7 @@
 		)
 		(uuid "18f69308-d2bb-412e-851d-cfd83b83daca")
 		(property "Sheetname" "digital-interface"
-			(at 254 75.4884 0)
+			(at 139.7 37.3884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34,7 +34,7 @@
 			)
 		)
 		(property "Sheetfile" "digital-interface.kicad_sch"
-			(at 254 102.1846 0)
+			(at 139.7 64.0846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43,7 +43,7 @@
 			)
 		)
 		(pin "SDO" input
-			(at 279.4 86.36 0)
+			(at 165.1 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53,7 +53,7 @@
 			(uuid "4b656881-e01b-41b4-9f1d-bb750e2424ab")
 		)
 		(pin "GND_ISO" output
-			(at 279.4 96.52 0)
+			(at 165.1 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63,7 +63,7 @@
 			(uuid "a9a8aafe-4895-4b9c-a4f1-e501462dc433")
 		)
 		(pin "+5VA_ISO" output
-			(at 279.4 93.98 0)
+			(at 165.1 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73,7 +73,7 @@
 			(uuid "1f9529c4-700b-415d-8f7d-4c01444b0ae8")
 		)
 		(pin "SCKL" output
-			(at 279.4 81.28 0)
+			(at 165.1 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -83,7 +83,7 @@
 			(uuid "f9e23241-8746-403e-98e6-53e417b9108f")
 		)
 		(pin "SDI" output
-			(at 279.4 83.82 0)
+			(at 165.1 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -93,7 +93,7 @@
 			(uuid "065db542-4ff4-4b74-a25c-bd2b94599f36")
 		)
 		(pin "~{CS}" output
-			(at 279.4 78.74 0)
+			(at 165.1 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -103,7 +103,7 @@
 			(uuid "4a895940-8a8f-4fa4-b565-cadd36e0a7bf")
 		)
 		(pin "SDO_ISO" output
-			(at 254 86.36 180)
+			(at 139.7 48.26 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -113,7 +113,7 @@
 			(uuid "8e6c3b37-e998-4a0c-90a2-afd4c6dae9e9")
 		)
 		(pin "SCKL_ISO" input
-			(at 254 81.28 180)
+			(at 139.7 43.18 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -123,7 +123,7 @@
 			(uuid "35a9d902-b26c-451d-81b8-7e797de0e8ce")
 		)
 		(pin "~{CS_ISO}" input
-			(at 254 78.74 180)
+			(at 139.7 40.64 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -133,7 +133,7 @@
 			(uuid "59bcb54d-d436-48a0-9d47-23bb5d8c1ba1")
 		)
 		(pin "SDI_ISO" input
-			(at 254 83.82 180)
+			(at 139.7 45.72 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -151,7 +151,7 @@
 		)
 	)
 	(sheet
-		(at 292.1 114.3)
+		(at 177.8 76.2)
 		(size 25.4 25.4)
 		(fields_autoplaced yes)
 		(stroke
@@ -163,7 +163,7 @@
 		)
 		(uuid "1d9ec1c6-3f8b-4d8c-ae91-e24bdcfacfe8")
 		(property "Sheetname" "adc1"
-			(at 292.1 113.5884 0)
+			(at 177.8 75.4884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -172,7 +172,7 @@
 			)
 		)
 		(property "Sheetfile" "adc.kicad_sch"
-			(at 292.1 140.2846 0)
+			(at 177.8 102.1846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -181,7 +181,7 @@
 			)
 		)
 		(pin "AIN_P" input
-			(at 317.5 119.38 0)
+			(at 203.2 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -191,7 +191,7 @@
 			(uuid "2984291d-fcd0-49b1-8dbb-5a48e231ed8b")
 		)
 		(pin "SDI" input
-			(at 292.1 121.92 180)
+			(at 177.8 83.82 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -201,7 +201,7 @@
 			(uuid "ff7a52f6-38b9-4b6b-a584-c43be4d432ea")
 		)
 		(pin "CONVST{slash}~{CS}" input
-			(at 292.1 116.84 180)
+			(at 177.8 78.74 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -211,7 +211,7 @@
 			(uuid "0f0f1bc8-1d3f-45d3-8efe-a22ba257b404")
 		)
 		(pin "SCKL" input
-			(at 292.1 119.38 180)
+			(at 177.8 81.28 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -221,7 +221,7 @@
 			(uuid "7048a2e2-ffba-4740-97f0-4731c879f999")
 		)
 		(pin "SDO-0" output
-			(at 292.1 124.46 180)
+			(at 177.8 86.36 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -231,7 +231,7 @@
 			(uuid "45a7a178-01ad-4cbe-8e1c-e8e7a5ecb14b")
 		)
 		(pin "GND_ADC" input
-			(at 292.1 134.62 180)
+			(at 177.8 96.52 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -241,7 +241,7 @@
 			(uuid "dc5ca138-e89d-43a8-94a2-122407bcc89e")
 		)
 		(pin "+5VA_ADC" input
-			(at 292.1 132.08 180)
+			(at 177.8 93.98 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -259,7 +259,7 @@
 		)
 	)
 	(sheet
-		(at 254 114.3)
+		(at 139.7 76.2)
 		(size 25.4 25.4)
 		(fields_autoplaced yes)
 		(stroke
@@ -271,7 +271,7 @@
 		)
 		(uuid "33a46cbd-3b48-4998-9ddf-f4aed818f791")
 		(property "Sheetname" "digital-interface1"
-			(at 254 113.5884 0)
+			(at 139.7 75.4884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -280,7 +280,7 @@
 			)
 		)
 		(property "Sheetfile" "digital-interface.kicad_sch"
-			(at 254 140.2846 0)
+			(at 139.7 102.1846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -289,7 +289,7 @@
 			)
 		)
 		(pin "SDO" input
-			(at 279.4 124.46 0)
+			(at 165.1 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -299,7 +299,7 @@
 			(uuid "6f5b7d5e-36a8-4297-a995-a400a9bddf44")
 		)
 		(pin "GND_ISO" output
-			(at 279.4 134.62 0)
+			(at 165.1 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -309,7 +309,7 @@
 			(uuid "953f7807-5e02-4267-95d2-9ac94310e695")
 		)
 		(pin "+5VA_ISO" output
-			(at 279.4 132.08 0)
+			(at 165.1 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -319,7 +319,7 @@
 			(uuid "9517e38d-d698-43e8-be45-6ce89e97a784")
 		)
 		(pin "SCKL" output
-			(at 279.4 119.38 0)
+			(at 165.1 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -329,7 +329,7 @@
 			(uuid "aec89a5c-56d3-4358-9a7f-80d3b74fa16b")
 		)
 		(pin "SDI" output
-			(at 279.4 121.92 0)
+			(at 165.1 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -339,7 +339,7 @@
 			(uuid "efd86a86-1422-4eca-b977-1fe447e94afd")
 		)
 		(pin "~{CS}" output
-			(at 279.4 116.84 0)
+			(at 165.1 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -349,7 +349,7 @@
 			(uuid "9edea49f-5bca-4ab1-b7e7-a24dcc06a8f9")
 		)
 		(pin "SDO_ISO" output
-			(at 254 124.46 180)
+			(at 139.7 86.36 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -359,7 +359,7 @@
 			(uuid "264678f3-607c-45f4-b7d5-bc11351b2718")
 		)
 		(pin "SCKL_ISO" input
-			(at 254 119.38 180)
+			(at 139.7 81.28 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -369,7 +369,7 @@
 			(uuid "f1d2c969-d406-4f32-ac50-d2904a013d16")
 		)
 		(pin "~{CS_ISO}" input
-			(at 254 116.84 180)
+			(at 139.7 78.74 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -379,7 +379,7 @@
 			(uuid "e8528f56-0495-41e8-a15a-a62952207168")
 		)
 		(pin "SDI_ISO" input
-			(at 254 121.92 180)
+			(at 139.7 83.82 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -397,7 +397,7 @@
 		)
 	)
 	(sheet
-		(at 292.1 76.2)
+		(at 177.8 38.1)
 		(size 25.4 25.4)
 		(fields_autoplaced yes)
 		(stroke
@@ -409,7 +409,7 @@
 		)
 		(uuid "380211f9-e561-408b-b124-4005600d686d")
 		(property "Sheetname" "adc"
-			(at 292.1 75.4884 0)
+			(at 177.8 37.3884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -418,7 +418,7 @@
 			)
 		)
 		(property "Sheetfile" "adc.kicad_sch"
-			(at 292.1 102.1846 0)
+			(at 177.8 64.0846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -427,7 +427,7 @@
 			)
 		)
 		(pin "AIN_P" input
-			(at 317.5 81.28 0)
+			(at 203.2 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -437,7 +437,7 @@
 			(uuid "406af144-1222-4cca-83d9-db1c33937463")
 		)
 		(pin "SDI" input
-			(at 292.1 83.82 180)
+			(at 177.8 45.72 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -447,7 +447,7 @@
 			(uuid "a85eaf36-b44e-44a0-927b-0b51299a054e")
 		)
 		(pin "CONVST{slash}~{CS}" input
-			(at 292.1 78.74 180)
+			(at 177.8 40.64 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -457,7 +457,7 @@
 			(uuid "1bbffcda-3b68-47e9-8b43-cd5480a17b03")
 		)
 		(pin "SCKL" input
-			(at 292.1 81.28 180)
+			(at 177.8 43.18 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -467,7 +467,7 @@
 			(uuid "53a009ad-aa29-4d45-bcef-0b385290b35f")
 		)
 		(pin "SDO-0" output
-			(at 292.1 86.36 180)
+			(at 177.8 48.26 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -477,7 +477,7 @@
 			(uuid "c58f6b2e-c94e-4323-a2f5-c99ab0ccdd77")
 		)
 		(pin "GND_ADC" input
-			(at 292.1 96.52 180)
+			(at 177.8 58.42 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -487,7 +487,7 @@
 			(uuid "840b33f1-8f53-4bdc-b652-dedd53e1cfcd")
 		)
 		(pin "+5VA_ADC" input
-			(at 292.1 93.98 180)
+			(at 177.8 55.88 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -505,7 +505,7 @@
 		)
 	)
 	(sheet
-		(at 254 152.4)
+		(at 139.7 114.3)
 		(size 25.4 25.4)
 		(fields_autoplaced yes)
 		(stroke
@@ -517,7 +517,7 @@
 		)
 		(uuid "3b85f868-5ce5-4a08-b6ad-a84168e0a0c3")
 		(property "Sheetname" "digital-interface2"
-			(at 254 151.6884 0)
+			(at 139.7 113.5884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -526,7 +526,7 @@
 			)
 		)
 		(property "Sheetfile" "digital-interface.kicad_sch"
-			(at 254 178.3846 0)
+			(at 139.7 140.2846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -535,7 +535,7 @@
 			)
 		)
 		(pin "SDO" input
-			(at 279.4 162.56 0)
+			(at 165.1 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -545,7 +545,7 @@
 			(uuid "98308117-9a45-415f-b6bc-8340186c31ce")
 		)
 		(pin "GND_ISO" output
-			(at 279.4 172.72 0)
+			(at 165.1 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -555,7 +555,7 @@
 			(uuid "862d0729-d6c9-40ae-ae16-572b40d0a5c2")
 		)
 		(pin "+5VA_ISO" output
-			(at 279.4 170.18 0)
+			(at 165.1 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -565,7 +565,7 @@
 			(uuid "9c3c8de6-1bb7-48e2-9ed1-7447a4669e7d")
 		)
 		(pin "SCKL" output
-			(at 279.4 157.48 0)
+			(at 165.1 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -575,7 +575,7 @@
 			(uuid "2382054c-55fc-4a22-a16c-22152bc584f2")
 		)
 		(pin "SDI" output
-			(at 279.4 160.02 0)
+			(at 165.1 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -585,7 +585,7 @@
 			(uuid "c9ad20a4-2901-4c33-b102-f65e3ab3ba39")
 		)
 		(pin "~{CS}" output
-			(at 279.4 154.94 0)
+			(at 165.1 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -595,7 +595,7 @@
 			(uuid "8e4ed497-7ec2-43b6-8bcf-530fa8fef81d")
 		)
 		(pin "SDO_ISO" output
-			(at 254 162.56 180)
+			(at 139.7 124.46 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -605,7 +605,7 @@
 			(uuid "525b5682-5645-416b-a553-eb041e7a302b")
 		)
 		(pin "SCKL_ISO" input
-			(at 254 157.48 180)
+			(at 139.7 119.38 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -615,7 +615,7 @@
 			(uuid "f9b95fd4-dc43-45bf-97d9-64afccd78364")
 		)
 		(pin "~{CS_ISO}" input
-			(at 254 154.94 180)
+			(at 139.7 116.84 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -625,7 +625,7 @@
 			(uuid "fc95a4f6-91d2-47c8-bd34-3849dc772ccb")
 		)
 		(pin "SDI_ISO" input
-			(at 254 160.02 180)
+			(at 139.7 121.92 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -643,7 +643,7 @@
 		)
 	)
 	(sheet
-		(at 292.1 152.4)
+		(at 177.8 114.3)
 		(size 25.4 25.4)
 		(fields_autoplaced yes)
 		(stroke
@@ -655,7 +655,7 @@
 		)
 		(uuid "57745d28-e888-4c41-bc36-79a8ee7a19bd")
 		(property "Sheetname" "adc2"
-			(at 292.1 151.6884 0)
+			(at 177.8 113.5884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -664,7 +664,7 @@
 			)
 		)
 		(property "Sheetfile" "adc.kicad_sch"
-			(at 292.1 178.3846 0)
+			(at 177.8 140.2846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -673,7 +673,7 @@
 			)
 		)
 		(pin "AIN_P" input
-			(at 317.5 157.48 0)
+			(at 203.2 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -683,7 +683,7 @@
 			(uuid "a4e4a9f7-3e76-402e-81bc-625741dd4c99")
 		)
 		(pin "SDI" input
-			(at 292.1 160.02 180)
+			(at 177.8 121.92 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -693,7 +693,7 @@
 			(uuid "a23093b8-f2ae-41a2-9522-69f2109b11c5")
 		)
 		(pin "CONVST{slash}~{CS}" input
-			(at 292.1 154.94 180)
+			(at 177.8 116.84 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -703,7 +703,7 @@
 			(uuid "03d9966f-94e9-406a-be68-43ecf2d4a6d5")
 		)
 		(pin "SCKL" input
-			(at 292.1 157.48 180)
+			(at 177.8 119.38 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -713,7 +713,7 @@
 			(uuid "14d50383-6b2e-4aff-932d-b383aa03a93c")
 		)
 		(pin "SDO-0" output
-			(at 292.1 162.56 180)
+			(at 177.8 124.46 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -723,7 +723,7 @@
 			(uuid "8eec68b0-9cf9-4099-87a1-b4525b6bab78")
 		)
 		(pin "GND_ADC" input
-			(at 292.1 172.72 180)
+			(at 177.8 134.62 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -733,7 +733,7 @@
 			(uuid "83f6b2d4-76f6-47c7-a877-cfe9c9b5fc25")
 		)
 		(pin "+5VA_ADC" input
-			(at 292.1 170.18 180)
+			(at 177.8 132.08 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -751,7 +751,7 @@
 		)
 	)
 	(sheet
-		(at 50.8 38.1)
+		(at 63.5 38.1)
 		(size 25.4 25.4)
 		(fields_autoplaced yes)
 		(stroke
@@ -763,7 +763,7 @@
 		)
 		(uuid "c84d6ce5-9299-4639-87a4-25ab6381fed6")
 		(property "Sheetname" "digital-interface3"
-			(at 50.8 37.3884 0)
+			(at 63.5 37.3884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -772,7 +772,7 @@
 			)
 		)
 		(property "Sheetfile" "digital-interface.kicad_sch"
-			(at 50.8 64.0846 0)
+			(at 63.5 64.0846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -781,7 +781,7 @@
 			)
 		)
 		(pin "SDO" input
-			(at 76.2 48.26 0)
+			(at 88.9 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -791,7 +791,7 @@
 			(uuid "3a1b0835-04c3-4146-a4b4-cbcb5c82c937")
 		)
 		(pin "GND_ISO" output
-			(at 76.2 58.42 0)
+			(at 88.9 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -801,7 +801,7 @@
 			(uuid "098b51b8-e127-4541-8c84-ac559d424d2d")
 		)
 		(pin "+5VA_ISO" output
-			(at 76.2 55.88 0)
+			(at 88.9 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -811,7 +811,7 @@
 			(uuid "b391fff8-6a8e-4c6c-a2fc-2687ba85274d")
 		)
 		(pin "SCKL" output
-			(at 76.2 43.18 0)
+			(at 88.9 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -821,7 +821,7 @@
 			(uuid "890ed894-0e2a-4127-b359-0e8780e68be7")
 		)
 		(pin "SDI" output
-			(at 76.2 45.72 0)
+			(at 88.9 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -831,7 +831,7 @@
 			(uuid "30b4276f-a6ed-4191-89ea-48a22e33a2b0")
 		)
 		(pin "~{CS}" output
-			(at 76.2 40.64 0)
+			(at 88.9 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -841,7 +841,7 @@
 			(uuid "d296868e-546c-4d54-8bbf-5ccdaf3916bc")
 		)
 		(pin "SDO_ISO" output
-			(at 50.8 48.26 180)
+			(at 63.5 48.26 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -851,7 +851,7 @@
 			(uuid "c5ac1dfe-b2e9-4458-8ea2-5e2ff27163c5")
 		)
 		(pin "SCKL_ISO" input
-			(at 50.8 43.18 180)
+			(at 63.5 43.18 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -861,7 +861,7 @@
 			(uuid "185a430a-d034-448f-a6b4-40fc9a084de7")
 		)
 		(pin "~{CS_ISO}" input
-			(at 50.8 40.64 180)
+			(at 63.5 40.64 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -871,7 +871,7 @@
 			(uuid "a8b26aa8-33b1-4ae4-add3-7c1fe8e0e35d")
 		)
 		(pin "SDI_ISO" input
-			(at 50.8 45.72 180)
+			(at 63.5 45.72 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -884,6 +884,94 @@
 			(project "meas"
 				(path "/f710e4da-f895-4fe1-9122-3234febe82c7"
 					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 215.9 76.2)
+		(size 25.4 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d8b83012-dd63-42fd-bab5-7d89e6ad661d")
+		(property "Sheetname" "i-transduce"
+			(at 215.9 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "i-transduce.kicad_sch"
+			(at 215.9 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "in" input
+			(at 241.3 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b881cd59-b11e-4ab1-8279-5b7a308e5126")
+		)
+		(pin "out" output
+			(at 241.3 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5761c898-23a2-4b2b-94bb-0410245b2411")
+		)
+		(pin "GND_ITRANSDUCE" input
+			(at 215.9 96.52 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "02ba6ef3-d8e3-4f66-a36a-185e043c5c70")
+		)
+		(pin "viout" output
+			(at 215.9 81.28 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "77b97dcf-c026-4fff-b201-5cf8c7b3b31c")
+		)
+		(pin "+5VA_ITRANSDUCE" input
+			(at 215.9 93.98 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6f173323-b8d0-41f8-b116-db1db97c19a6")
+		)
+		(instances
+			(project "meas"
+				(path "/f710e4da-f895-4fe1-9122-3234febe82c7"
+					(page "9")
 				)
 			)
 		)
