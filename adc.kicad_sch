@@ -12,7 +12,7 @@
 		(comment 1 "Analog Digital Converter")
 	)
 	(lib_symbols
-		(symbol "pss:ADS866x"
+		(symbol "meas:ADS866x"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -381,7 +381,7 @@
 				)
 			)
 		)
-		(symbol "pss:C"
+		(symbol "meas:C"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254)
@@ -517,7 +517,7 @@
 				)
 			)
 		)
-		(symbol "pss:LED"
+		(symbol "meas:LED"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016) hide)
@@ -686,7 +686,7 @@
 				)
 			)
 		)
-		(symbol "pss:R"
+		(symbol "meas:R"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0)
@@ -807,7 +807,7 @@
 				)
 			)
 		)
-		(symbol "pss:SolderJumper_2_Bridged"
+		(symbol "meas:SolderJumper_2_Bridged"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0) hide)
@@ -999,7 +999,7 @@
 				)
 			)
 		)
-		(symbol "pss:SolderJumper_2_Open"
+		(symbol "meas:SolderJumper_2_Open"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0) hide)
@@ -1180,7 +1180,7 @@
 				)
 			)
 		)
-		(symbol "pss:TestPoint"
+		(symbol "meas:TestPoint"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.762) hide)
@@ -2016,7 +2016,7 @@
 		(uuid "ef902f4b-2b1a-4481-beb1-7b5fc7caded9")
 	)
 	(symbol
-		(lib_id "pss:C")
+		(lib_id "meas:C")
 		(at 88.9 91.44 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2111,7 +2111,7 @@
 		)
 	)
 	(symbol
-		(lib_id "pss:R")
+		(lib_id "meas:R")
 		(at 177.8 85.09 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2204,7 +2204,7 @@
 		)
 	)
 	(symbol
-		(lib_id "pss:C")
+		(lib_id "meas:C")
 		(at 168.91 102.87 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2299,7 +2299,7 @@
 		)
 	)
 	(symbol
-		(lib_id "pss:R")
+		(lib_id "meas:R")
 		(at 88.9 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2395,7 +2395,7 @@
 		)
 	)
 	(symbol
-		(lib_id "pss:TestPoint")
+		(lib_id "meas:TestPoint")
 		(at 171.45 99.06 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2487,7 +2487,7 @@
 		)
 	)
 	(symbol
-		(lib_id "pss:ADS866x")
+		(lib_id "meas:ADS866x")
 		(at 137.16 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2625,7 +2625,7 @@
 		)
 	)
 	(symbol
-		(lib_id "pss:C")
+		(lib_id "meas:C")
 		(at 168.91 88.9 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2720,7 +2720,7 @@
 		)
 	)
 	(symbol
-		(lib_id "pss:R")
+		(lib_id "meas:R")
 		(at 177.8 92.71 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2813,7 +2813,7 @@
 		)
 	)
 	(symbol
-		(lib_id "pss:TestPoint")
+		(lib_id "meas:TestPoint")
 		(at 184.15 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2905,7 +2905,7 @@
 		)
 	)
 	(symbol
-		(lib_id "pss:TestPoint")
+		(lib_id "meas:TestPoint")
 		(at 88.9 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2997,7 +2997,7 @@
 		)
 	)
 	(symbol
-		(lib_id "pss:C")
+		(lib_id "meas:C")
 		(at 140.97 67.31 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3092,7 +3092,7 @@
 		)
 	)
 	(symbol
-		(lib_id "pss:R")
+		(lib_id "meas:R")
 		(at 82.55 86.36 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3186,7 +3186,7 @@
 		)
 	)
 	(symbol
-		(lib_id "pss:SolderJumper_2_Open")
+		(lib_id "meas:SolderJumper_2_Open")
 		(at 88.9 81.28 270)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -3262,7 +3262,7 @@
 		)
 	)
 	(symbol
-		(lib_id "pss:C")
+		(lib_id "meas:C")
 		(at 219.71 102.87 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3357,7 +3357,7 @@
 		)
 	)
 	(symbol
-		(lib_id "pss:C")
+		(lib_id "meas:C")
 		(at 125.73 67.31 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3452,7 +3452,7 @@
 		)
 	)
 	(symbol
-		(lib_id "pss:C")
+		(lib_id "meas:C")
 		(at 203.2 102.87 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3547,7 +3547,7 @@
 		)
 	)
 	(symbol
-		(lib_id "pss:LED")
+		(lib_id "meas:LED")
 		(at 88.9 130.81 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3643,7 +3643,7 @@
 		)
 	)
 	(symbol
-		(lib_id "pss:SolderJumper_2_Bridged")
+		(lib_id "meas:SolderJumper_2_Bridged")
 		(at 88.9 109.22 90)
 		(unit 1)
 		(exclude_from_sim yes)

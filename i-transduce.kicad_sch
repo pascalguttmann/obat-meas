@@ -12,7 +12,7 @@
 		(comment 1 "I Transduce")
 	)
 	(lib_symbols
-		(symbol "pss:ACS730xLCTR-20AB"
+		(symbol "meas:ACS730xLCTR-20AB"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -241,7 +241,7 @@
 				)
 			)
 		)
-		(symbol "pss:C"
+		(symbol "meas:C"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254)
@@ -377,7 +377,7 @@
 				)
 			)
 		)
-		(symbol "pss:TestPoint"
+		(symbol "meas:TestPoint"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.762) hide)
@@ -770,7 +770,7 @@
 		)
 	)
 	(symbol
-		(lib_id "pss:TestPoint")
+		(lib_id "meas:TestPoint")
 		(at 181.61 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -860,7 +860,7 @@
 		)
 	)
 	(symbol
-		(lib_id "pss:C")
+		(lib_id "meas:C")
 		(at 167.64 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -953,7 +953,7 @@
 		)
 	)
 	(symbol
-		(lib_id "pss:C")
+		(lib_id "meas:C")
 		(at 144.78 93.98 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1046,7 +1046,7 @@
 		)
 	)
 	(symbol
-		(lib_id "pss:ACS730xLCTR-20AB")
+		(lib_id "meas:ACS730xLCTR-20AB")
 		(at 152.4 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1160,7 +1160,7 @@
 		)
 	)
 	(symbol
-		(lib_id "pss:TestPoint")
+		(lib_id "meas:TestPoint")
 		(at 167.64 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)

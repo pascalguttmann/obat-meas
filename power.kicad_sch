@@ -145,7 +145,7 @@
 				)
 			)
 		)
-		(symbol "enclosure:+24V"
+		(symbol "meas:+24V"
 			(power)
 			(pin_numbers hide)
 			(pin_names
@@ -265,7 +265,127 @@
 				)
 			)
 		)
-		(symbol "enclosure:C"
+		(symbol "meas:+5VA"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5VA"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5VA\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5VA_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5VA_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "meas:C"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254)
@@ -401,7 +521,7 @@
 				)
 			)
 		)
-		(symbol "enclosure:C_Polarized"
+		(symbol "meas:C_Polarized"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254)
@@ -559,7 +679,7 @@
 				)
 			)
 		)
-		(symbol "enclosure:D"
+		(symbol "meas:D"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -721,7 +841,7 @@
 				)
 			)
 		)
-		(symbol "enclosure:D_TVS"
+		(symbol "meas:D_TVS"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016) hide)
@@ -866,7 +986,7 @@
 				)
 			)
 		)
-		(symbol "enclosure:Fuse"
+		(symbol "meas:Fuse"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0)
@@ -999,7 +1119,7 @@
 				)
 			)
 		)
-		(symbol "enclosure:GND"
+		(symbol "meas:GND"
 			(power)
 			(pin_numbers hide)
 			(pin_names
@@ -1095,7 +1215,7 @@
 				)
 			)
 		)
-		(symbol "enclosure:MC7805"
+		(symbol "meas:MC7805"
 			(pin_names
 				(offset 0.254)
 			)
@@ -1227,7 +1347,7 @@
 				)
 			)
 		)
-		(symbol "enclosure:PWR_FLAG"
+		(symbol "meas:PWR_FLAG"
 			(power)
 			(pin_numbers hide)
 			(pin_names
@@ -1323,7 +1443,7 @@
 				)
 			)
 		)
-		(symbol "enclosure:Q_PNP_BCE"
+		(symbol "meas:Q_PNP_BCE"
 			(pin_names
 				(offset 0) hide)
 			(exclude_from_sim no)
@@ -1501,7 +1621,7 @@
 				)
 			)
 		)
-		(symbol "enclosure:R"
+		(symbol "meas:R"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0)
@@ -1622,7 +1742,7 @@
 				)
 			)
 		)
-		(symbol "enclosure:TestPoint"
+		(symbol "meas:TestPoint"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.762) hide)
@@ -1708,126 +1828,6 @@
 					(at 0 0 90)
 					(length 2.54)
 					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "power:+5VA"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+5VA"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+5VA\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+5VA_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+5VA_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2478,7 +2478,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5VA")
+		(lib_id "meas:+5VA")
 		(at 227.33 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2544,7 +2544,7 @@
 		)
 	)
 	(symbol
-		(lib_id "enclosure:C_Polarized")
+		(lib_id "meas:C_Polarized")
 		(at 104.14 100.33 0)
 		(mirror y)
 		(unit 1)
@@ -2638,7 +2638,7 @@
 		)
 	)
 	(symbol
-		(lib_id "enclosure:D")
+		(lib_id "meas:D")
 		(at 208.28 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2748,7 +2748,7 @@
 		)
 	)
 	(symbol
-		(lib_id "enclosure:TestPoint")
+		(lib_id "meas:TestPoint")
 		(at 104.14 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2838,7 +2838,7 @@
 		)
 	)
 	(symbol
-		(lib_id "enclosure:+24V")
+		(lib_id "meas:+24V")
 		(at 170.18 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2910,7 +2910,7 @@
 		)
 	)
 	(symbol
-		(lib_id "enclosure:PWR_FLAG")
+		(lib_id "meas:PWR_FLAG")
 		(at 43.18 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2982,7 +2982,7 @@
 		)
 	)
 	(symbol
-		(lib_id "enclosure:GND")
+		(lib_id "meas:GND")
 		(at 43.18 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3054,7 +3054,7 @@
 		)
 	)
 	(symbol
-		(lib_id "enclosure:PWR_FLAG")
+		(lib_id "meas:PWR_FLAG")
 		(at 134.62 95.25 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3126,7 +3126,7 @@
 		)
 	)
 	(symbol
-		(lib_id "enclosure:PWR_FLAG")
+		(lib_id "meas:PWR_FLAG")
 		(at 196.85 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3198,7 +3198,7 @@
 		)
 	)
 	(symbol
-		(lib_id "enclosure:TestPoint")
+		(lib_id "meas:TestPoint")
 		(at 241.3 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3288,7 +3288,7 @@
 		)
 	)
 	(symbol
-		(lib_id "enclosure:D_TVS")
+		(lib_id "meas:D_TVS")
 		(at 55.88 100.33 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3382,7 +3382,7 @@
 		)
 	)
 	(symbol
-		(lib_id "enclosure:TestPoint")
+		(lib_id "meas:TestPoint")
 		(at 55.88 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3472,7 +3472,7 @@
 		)
 	)
 	(symbol
-		(lib_id "enclosure:Fuse")
+		(lib_id "meas:Fuse")
 		(at 81.28 93.98 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3564,7 +3564,7 @@
 		)
 	)
 	(symbol
-		(lib_id "enclosure:C")
+		(lib_id "meas:C")
 		(at 190.5 116.84 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3657,7 +3657,7 @@
 		)
 	)
 	(symbol
-		(lib_id "enclosure:TestPoint")
+		(lib_id "meas:TestPoint")
 		(at 55.88 106.68 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3747,7 +3747,7 @@
 		)
 	)
 	(symbol
-		(lib_id "enclosure:R")
+		(lib_id "meas:R")
 		(at 176.53 99.06 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3838,7 +3838,7 @@
 		)
 	)
 	(symbol
-		(lib_id "enclosure:MC7805")
+		(lib_id "meas:MC7805")
 		(at 208.28 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3935,7 +3935,7 @@
 		)
 	)
 	(symbol
-		(lib_id "enclosure:+24V")
+		(lib_id "meas:+24V")
 		(at 134.62 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4008,7 +4008,7 @@
 	)
 	(symbol
 		(lib_name "Fuse_Socket_1")
-		(lib_id "enclosure:Fuse_Socket_1")
+		(lib_id "meas:Fuse_Socket_1")
 		(at 81.28 93.98 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4099,7 +4099,7 @@
 		)
 	)
 	(symbol
-		(lib_id "enclosure:D")
+		(lib_id "meas:D")
 		(at 116.84 100.33 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4211,7 +4211,7 @@
 		)
 	)
 	(symbol
-		(lib_id "enclosure:Q_PNP_BCE")
+		(lib_id "meas:Q_PNP_BCE")
 		(at 190.5 88.9 270)
 		(mirror x)
 		(unit 1)
@@ -4307,7 +4307,7 @@
 		)
 	)
 	(symbol
-		(lib_id "enclosure:C")
+		(lib_id "meas:C")
 		(at 227.33 116.84 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4400,7 +4400,7 @@
 		)
 	)
 	(symbol
-		(lib_id "enclosure:GND")
+		(lib_id "meas:GND")
 		(at 208.28 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
