@@ -1,10 +1,13 @@
 {
   "subpcb": {
+    "iso-dcdc.kicad_pcb": {
+      "anchor": "U1101"
+    },
     "adc.kicad_pcb": {
       "anchor": "U701"
     },
     "digital-interface.kicad_pcb": {
-      "anchor": "U701"
+      "anchor": "U301"
     },
     "meas.kicad_pcb": {
       "anchor": "J101"
@@ -14,20 +17,23 @@
     "": {
       "checked": false
     },
+    "/008bd584-3da4-49b8-9c46-45e2dc96c3df": {
+      "checked": true
+    },
     "/18f69308-d2bb-412e-851d-cfd83b83daca": {
-      "checked": false
+      "checked": true
     },
     "/1d9ec1c6-3f8b-4d8c-ae91-e24bdcfacfe8": {
       "checked": true
     },
     "/33a46cbd-3b48-4998-9ddf-f4aed818f791": {
-      "checked": false
+      "checked": true
     },
     "/380211f9-e561-408b-b124-4005600d686d": {
       "checked": true
     },
     "/3b85f868-5ce5-4a08-b6ad-a84168e0a0c3": {
-      "checked": false
+      "checked": true
     },
     "/57745d28-e888-4c41-bc36-79a8ee7a19bd": {
       "checked": true
@@ -35,8 +41,17 @@
     "/722db133-dd98-4c12-99f4-3c9027a3ce09": {
       "checked": false
     },
+    "/88ef241f-2c81-4530-a1b0-8807865e8a1b": {
+      "checked": true
+    },
+    "/affef7c6-81ec-4fdf-ac2f-2b333cd52648": {
+      "checked": true
+    },
+    "/b5f87f4b-fb53-4809-8a32-dbb08658c8bc": {
+      "checked": true
+    },
     "/c84d6ce5-9299-4639-87a4-25ab6381fed6": {
-      "checked": false
+      "checked": true
     },
     "/d8b83012-dd63-42fd-bab5-7d89e6ad661d": {
       "checked": false

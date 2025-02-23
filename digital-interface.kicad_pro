@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.254
+          "min_clearance": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -666,6 +666,11 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "654afc25-d255-46ff-8b92-f01d7b1afe4f",
+      "Root"
+    ]
+  ],
   "text_variables": {}
 }
