@@ -481,12 +481,6 @@
 		)
 	)
 	(junction
-		(at 167.64 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2fa2a9b2-29ec-4fe8-8d3b-744dd1d99d9b")
-	)
-	(junction
 		(at 152.4 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -610,17 +604,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 107.95) (xy 172.72 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f183fd22-35f2-4d1b-868a-80f1ef8227df")
-	)
-	(wire
-		(pts
-			(xy 162.56 107.95) (xy 167.64 107.95)
+			(xy 162.56 107.95) (xy 172.72 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1154,96 +1138,6 @@
 			(project "meas"
 				(path "/f710e4da-f895-4fe1-9122-3234febe82c7/d8b83012-dd63-42fd-bab5-7d89e6ad661d"
 					(reference "U901")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "meas:TestPoint")
-		(at 167.64 107.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e069340a-ad8d-4100-b7f0-9f02839400b3")
-		(property "Reference" "TP1502"
-			(at 168.91 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 170.18 105.9179 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "meas:TP_0805_2012Metric"
-			(at 172.72 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "./datasheet/RCTCTE.pdf"
-			(at 172.72 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 167.64 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RCTCTE"
-			(at 167.64 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VPN" "660-RCTCTE"
-			(at 167.64 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6ebdfabc-bb67-455b-8cf5-fc29497dfc56")
-		)
-		(instances
-			(project "pss"
-				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/930a3603-b5c1-4234-96f5-716c518f6fe1"
-					(reference "TP1502")
-					(unit 1)
-				)
-			)
-			(project "meas"
-				(path "/f710e4da-f895-4fe1-9122-3234febe82c7/d8b83012-dd63-42fd-bab5-7d89e6ad661d"
-					(reference "TP901")
 					(unit 1)
 				)
 			)
