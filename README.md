@@ -2,11 +2,10 @@
 
 KiCAD Project for the measurement electronics of Obat.
 
-TODO: Add images
-
 | TOP | BOT |
 | ------------- | -------------- |
-| Top side image | Bot side image |
+| ![img](./img/meas_top.png) | ![img](./img/meas_bot.png) |
+| ![img](./img/meas_3d_top.png) | ![img](./img/meas_3d_bot.png) |
 
 ## License
 
