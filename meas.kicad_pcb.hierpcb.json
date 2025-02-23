@@ -1,16 +1,16 @@
 {
   "subpcb": {
-    "iso-dcdc.kicad_pcb": {
-      "anchor": "U1101"
-    },
-    "adc.kicad_pcb": {
-      "anchor": "U701"
-    },
     "digital-interface.kicad_pcb": {
       "anchor": "U301"
     },
+    "iso-dcdc.kicad_pcb": {
+      "anchor": "U1101"
+    },
     "meas.kicad_pcb": {
       "anchor": "J101"
+    },
+    "adc.kicad_pcb": {
+      "anchor": "U701"
     }
   },
   "sheet": {

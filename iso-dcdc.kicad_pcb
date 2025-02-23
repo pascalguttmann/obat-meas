@@ -135,7 +135,7 @@
 		(descr "SOD-323")
 		(tags "SOD-323")
 		(property "Reference" "D1101"
-			(at 0 -3.175 360)
+			(at 0 -3.175 0)
 			(layer "F.SilkS")
 			(uuid "2c7138c3-fa2a-4ab5-8882-fa085c3d346c")
 			(effects
@@ -146,7 +146,7 @@
 			)
 		)
 		(property "Value" "PDZ5.6B115"
-			(at 0.1 1.9 360)
+			(at 0.1 1.9 0)
 			(layer "F.Fab")
 			(uuid "6fa877e2-f3db-42f9-9a1f-95e6ba58534e")
 			(effects
@@ -394,7 +394,7 @@
 			(uuid "3b634301-132c-4c01-9a6d-a406202fc41e")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -1.85 360)
+			(at 0 -1.85 0)
 			(layer "F.Fab")
 			(uuid "4bc9e936-5d2d-4318-8584-b549c102d296")
 			(effects
@@ -858,7 +858,7 @@
 		(descr "Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C1103"
-			(at -3.683 -1.016 360)
+			(at -3.683 -1.016 0)
 			(layer "F.SilkS")
 			(uuid "d5087fd5-1309-4a89-ac56-c61ce7acd085")
 			(effects
@@ -869,7 +869,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 0 2.3 270)
+			(at 0 2.3 -90)
 			(layer "F.Fab")
 			(uuid "b62e0e35-0fda-4bb2-b2be-67eda9f7723a")
 			(effects
@@ -1047,7 +1047,7 @@
 			(uuid "d78be379-01c1-4463-bb82-358b50eb97fa")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "e70002fa-7663-412a-8b70-579def37d804")
 			(effects
@@ -2072,7 +2072,7 @@
 			(uuid "385cc912-62b2-41aa-acac-fb7e8491f222")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "6d5d5ac9-319a-410a-9a30-0927d23bf28b")
 			(effects
