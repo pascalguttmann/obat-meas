@@ -5,13 +5,13 @@
       "Application": "Pcbnew",
       "Version": "8.0.2"
     },
-    "CreationDate": "2025-02-23T04:32:52+01:00"
+    "CreationDate": "2025-03-06T23:30:15+01:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "meas",
       "GUID": "6d656173-2e6b-4696-9361-645f70636258",
-      "Revision": "1.0.0"
+      "Revision": "2.0.0"
     },
     "Size": {
       "X": 100.05,

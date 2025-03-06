@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Measurement")
-		(date "2025-02-23")
-		(rev "1.0.0")
+		(date "2025-03-06")
+		(rev "2.0.0")
 		(company "Open Battery Tester")
 		(comment 1 "Overview")
 	)
@@ -1545,6 +1545,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 105.4269) (xy 176.526 105.4269)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1579a1ac-49c5-43ee-ab13-3dd97d2b48f3")
+	)
+	(wire
+		(pts
 			(xy 165.1 83.82) (xy 177.8 83.82)
 		)
 		(stroke
@@ -1872,6 +1882,16 @@
 			(type default)
 		)
 		(uuid "5333f00e-8adb-4c89-a8c8-05210a6bf7d1")
+	)
+	(wire
+		(pts
+			(xy 176.526 105.4269) (xy 177.8 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "538dac68-973c-4a16-bede-40f3984ff5c1")
 	)
 	(wire
 		(pts
@@ -2375,7 +2395,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 105.41) (xy 177.8 105.41)
+			(xy 165.1 105.41) (xy 176.526 105.4269)
 		)
 		(stroke
 			(width 0)
@@ -2632,6 +2652,16 @@
 			(type default)
 		)
 		(uuid "eef847e2-8958-4edb-b312-b4329834a568")
+	)
+	(wire
+		(pts
+			(xy 176.53 105.3931) (xy 176.53 105.4269)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f357c44c-f589-4080-97c9-85f2f8f69e56")
 	)
 	(wire
 		(pts
@@ -2991,7 +3021,7 @@
 		(uuid "dccb7654-afa2-4b7a-a390-5a32319d5449")
 	)
 	(label "GND_ISO_I"
-		(at 176.526 105.4269 180)
+		(at 176.53 105.3931 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
