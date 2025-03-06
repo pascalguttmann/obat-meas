@@ -225,6 +225,7 @@
 	(net 91 "unconnected-(U1201-DNC-Pad10)")
 	(net 92 "unconnected-(U1301-DNC-Pad10)")
 	(net 93 "unconnected-(U1401-DNC-Pad10)")
+	(net 94 "unconnected-(J101-Pin_6-Pad6)_0")
 	(footprint "meas:SOIC-16W_7.5x10.3mm_P1.27mm"
 		(layer "F.Cu")
 		(uuid "00c4a65d-8f23-4710-927f-77c4ca68c99d")
@@ -36761,7 +36762,7 @@
 			(drill 1.4)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 56 "unconnected-(J101-Pin_6-Pad6)")
+			(net 94 "unconnected-(J101-Pin_6-Pad6)_0")
 			(pinfunction "Pin_6")
 			(pintype "passive+no_connect")
 			(uuid "eae4c043-517a-4a2a-b493-dc94696ddadd")

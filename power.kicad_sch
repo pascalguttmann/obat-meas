@@ -3434,7 +3434,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0287030.PXCN"
+		(property "MPN" "0287001.PXCN"
 			(at 81.28 93.98 0)
 			(effects
 				(font
@@ -3443,7 +3443,7 @@
 				(hide yes)
 			)
 		)
-		(property "VPN" "576-0287030.PXCN"
+		(property "VPN" "576-0287001.PXCN"
 			(at 81.28 93.98 0)
 			(effects
 				(font
