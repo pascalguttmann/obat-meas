@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Measurement")
-		(date "2025-03-06")
-		(rev "2.0.0")
+		(date "2025-03-08")
+		(rev "2.1.0")
 		(company "Open Battery Tester")
 		(comment 1 "Overview")
 	)
@@ -3521,7 +3521,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "602848da-7606-4ab2-a036-fff05abbccf6")
 		(property "Reference" "R104"
@@ -3533,7 +3533,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "0"
 			(at 218.44 128.2699 0)
 			(effects
 				(font
@@ -3569,7 +3569,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC1210FR-07100KL"
+		(property "MPN" "RC1210JR-070RL"
 			(at 215.9 127 0)
 			(effects
 				(font
@@ -3578,7 +3578,7 @@
 				(hide yes)
 			)
 		)
-		(property "VPN" "603-RC1210FR-07100KL"
+		(property "VPN" "603-RC1210JR-070RL"
 			(at 215.9 127 0)
 			(effects
 				(font
@@ -4297,7 +4297,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "0"
 			(at 222.25 115.57 90)
 			(effects
 				(font
@@ -4332,7 +4332,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC1210FR-07100KL"
+		(property "MPN" "RC1210JR-070RL"
 			(at 222.25 119.38 0)
 			(effects
 				(font
@@ -4341,7 +4341,7 @@
 				(hide yes)
 			)
 		)
-		(property "VPN" "603-RC1210FR-07100KL"
+		(property "VPN" "603-RC1210JR-070RL"
 			(at 222.25 119.38 0)
 			(effects
 				(font

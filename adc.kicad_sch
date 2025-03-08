@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Measurement")
-		(date "2025-03-06")
-		(rev "2.0.0")
+		(date "2025-03-08")
+		(rev "2.1.0")
 		(company "Open Battery Tester")
 		(comment 1 "Analog Digital Converter")
 	)
